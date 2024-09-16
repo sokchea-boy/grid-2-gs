@@ -1,0 +1,72 @@
+.grid-container> div{
+    background: rgb(96, 171, 196);
+    padding: 40px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 0.7fr ;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas:
+    "imge-1 imge-1 imge-2 imge-7" 
+    "imge-1 imge-1 imge-3 imge-7"
+     "imge-4 imge-5 imge-5 imge-7"
+    "imge-6 imge-8 imge-9 imge-7" 
+    ;
+    grid-gap: 10px;
+    background: #e2e1e1;
+}
+.imge-1{
+    grid-area: imge-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-2{
+    grid-area: imge-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-3{
+    grid-area: imge-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-4{
+    grid-area: imge-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-5{
+    grid-area: imge-5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-6{
+    grid-area: imge-6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-7{
+    grid-area: imge-7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.imge-8{
+    grid-area: imge-8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge-9{
+    grid-area: imge-9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
